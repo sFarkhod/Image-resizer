@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image resizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="resizer">     <!--this div class only for css-->
+        <input type="file" class="resizer_file"> <!--this is file(image) input-->
+        <div class="dimensions"> <!--this div class also for css-->
+            <input type="text" class="resizer_input resizer_input--width" value="0">
+            X                           <!--this is inputs for width and height-->
+            <input type="text" class="resizer_input resizer_input--height" value="0">
+            <label> <!--this is checkbox for aspect ratio-->
+                <input type="checkbox" class="resizer_aspect" checked>
+                Keep Aspect Ratio
+            </label>
+        </div>
+        <canvas class="resizer_canvas" width="500" height="500"></canvas>  <!--canvas element for drawing anything in html with javascript. It must be included-->
+    </div>
+</body>
+</html>

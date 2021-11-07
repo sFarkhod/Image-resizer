@@ -1,0 +1,25 @@
+body {
+    background: #4DA0B0;  
+    background: -webkit-linear-gradient(to top, #D39D38, #4DA0B0);  
+    background: linear-gradient(to left, #D39D38, #4DA0B0);    
+}
+
+.resizer {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    width: 500px;
+}
+
+.dimensions {
+    padding: 20px 0;
+}
+
+.resizer_input {
+    width: 75px;
+    padding: 5px;
+}
+
+.resizer_canvas {
+    max-width: 100%;
+}
